@@ -1,0 +1,155 @@
+/*
+LAYOUT
+*/
+body{
+	background:#080808 url(blacknoise.jpg) repeat;
+}
+.row-fluid{
+  margin: 0;
+}
+.no-margin{
+	position: relative;
+	padding-top: 10em;
+}
+.no-margin [class*="span"] {
+    margin-left: 0;
+}
+/*
+FONT
+*/
+@font-face {	
+	font: {
+		family: 'DINPro-Light';
+		weight: 'normal';
+		style: 'normal';
+	}
+		src: asset-url('DINPro-Light.eot', font);
+		src: asset-url('DINPro-Light.eot', font) format('embedded-opentype'),
+				 asset-url('DINPro-Light.woff', font) format('woff'), 
+				 asset-url('DINPro-Light.ttf', font) format('truetype'), 
+				 asset-url('DINPro-Light.svg', font) format('svg');
+}
+@font-face {	
+	font: {
+		family: 'DINPro-Regular';
+		weight: 'normal';
+		style: 'normal';
+	}
+		src: asset-url('DINPro-Regular.eot', font);
+		src: asset-url('DINPro-Regular.eot', font) format('embedded-opentype'),
+				 asset-url('DINPro-Regular.woff', font) format('woff'), 
+				 asset-url('DINPro-Regular.ttf', font) format('truetype'), 
+				 asset-url('DINPro-Regular.svg', font) format('svg');
+}
+@font-face {	
+	font: {
+		family: 'DINPro-Bold';
+		weight: 'normal';
+		style: 'normal';
+	}
+		src: asset-url('DINPro-Bold.eot', font);
+		src: asset-url('DINPro-Bold.eot', font) format('embedded-opentype'),
+				 asset-url('DINPro-Bold.woff', font) format('woff'), 
+				 asset-url('DINPro-Bold.ttf', font) format('truetype'), 
+				 asset-url('DINPro-Bold.svg', font) format('svg');
+}
+h6, p, a{
+	color: #545454;
+}
+h1{
+	font:36px 'DINPro-Light', helvetica, arial, sans-serif;
+	color:#080808;
+	padding:0 10%;
+	letter-spacing: 0.4pt;
+}
+h2{
+	font:bold 60px 'DINPro-Bold', helvetica, arial, sans-serif;
+	color:#f0f0f0;
+	padding:0 20%;
+	letter-spacing: 0.4pt;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3{
+	font:20px 'DINPro-Regular', helvetica, arial, sans-serif;
+	color:#606060;
+	padding:0 20%;
+	letter-spacing: 0.4pt;
+	text-transform: uppercase;
+	text-align: center;
+}
+.bold{
+	font-family: 'DINPro-Bold';
+}
+p{
+	font-family: 'DINPro-Regular';
+}
+a{
+	font-family: 'DINPro-Regular';
+	cursor: pointer;
+}
+p+a{
+	position: relative;
+	top: -0.625em;
+}
+strong{
+	font-family: 'DINPro-Bold';
+}
+.logo{
+	background: url(logo.png) no-repeat center center;
+	height:800px;
+}
+.weare{
+	background:#080808 url(whitenoise.jpg) repeat fixed;
+	padding:20% 0;
+}
+.works{
+	background:#080808 url(blacknoise.jpg) repeat fixed;
+	padding: 0 10% 20%;
+	h2{
+		margin:10% 0 0 0;
+	}
+	h3{
+		margin:0 0 10% 0;
+	}
+	.span4{
+
+	}
+	.work{
+		margin:7% 0 0 0;
+		width:100%;
+		.ph{
+			height:200px;
+			background:#080808;
+			img{
+				border: 0 none;
+		    height: auto;
+		    vertical-align: middle;
+				max-width: none;
+			}
+		}
+		.info{
+			width:100%;
+			h5{
+				font:16px 'DINPro-Bold', helvetica, arial, sans-serif;
+				color:#333;
+				margin:5% 0 0 0;
+				letter-spacing: 0.4pt;
+				padding:0;
+				text-transform: uppercase;
+			}
+			p{
+				font:12px 'DINPro-Bold', helvetica, arial, sans-serif;
+				color:#808080;
+				padding:0;
+				letter-spacing: 0.4pt;
+				margin:1% 0 0 0;
+			}
+		}
+	}
+}
+.nuevediez{
+	background:#080808 url(blacknoise.jpg) repeat fixed;
+	padding:20% 0;
+}
+
